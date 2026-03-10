@@ -1,0 +1,19 @@
+# Ignorar binários e arquivos de build
+*.class
+bin/
+target/
+
+# Ignorar configurações do Eclipse e Spring Tool Suite
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+*.launch
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Arquivos temporários do Linux
+*.swp
+*~
