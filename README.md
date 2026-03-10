@@ -36,7 +36,7 @@ Dominar o desenvolvimento de aplicações modernas em Java como graduando em Eng
     - Seção 24: Bônus: Projeto Spring Boot e banco MongoDB (web services + NoSQL) - 27 aulas - 3h 25m
 
 ## 🛠️ Tecnologias e Ferramentas
-- **Linguagem:** Java 17+
+- **Linguagem:** Java 25+ ☕
 - **IDEs:** Spring Tool Suite (STS) e Eclipse
 - **Bancos de Dados:** MySQL e MongoDB
 - **Frameworks:** Spring Boot, JPA, Hibernate
