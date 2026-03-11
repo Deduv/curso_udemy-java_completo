@@ -1,0 +1,29 @@
+/*Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N linhas,
+começando de 1 até N. Para cada linha, mostrar o número da linha, depois o quadrado e o cubo do valor, conforme
+exemplo.*/
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio_7 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n;
+		n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			int x1, x2, x3;
+			x1 = i;
+			x2 = i * i;
+			x3 = i * i * i;
+			
+			System.out.printf("%d %d %d%n", x1, x2, x3);
+		}
+		
+		sc.close();
+	}
+
+}
