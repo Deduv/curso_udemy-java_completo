@@ -7,7 +7,7 @@ Repositório para organizar estudos e projetos do curso mais completo de Java, f
 Dominar o desenvolvimento de aplicações modernas em Java como graduando em Engenharia de Software, cobrindo desde a base da linguagem até arquiteturas de microsserviços.
 
 ## ✅ Conteúdo e Roadmap Detalhado
-- [ ] **Módulo 1: Fundamentos**
+- [x] **Módulo 1: Fundamentos**
     - Seção 1: Apresentação do curso - 5 aulas - 19m
     - Seção 2: Conceitos de programação - 7 aulas - 24m
     - Seção 3: Introdução à linguagem Java - 13 aulas - 40m
