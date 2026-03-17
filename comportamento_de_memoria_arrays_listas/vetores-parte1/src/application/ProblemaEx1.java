@@ -29,6 +29,8 @@ public class ProblemaEx1 {
 		
 		averageHeight = sum / (double) n;
 		System.out.println("\nAVERAGE HEIGHT = " + String.format("%.2f", averageHeight));
+		
+		sc.close();
 	}
 
 }
