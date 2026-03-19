@@ -2,26 +2,22 @@ package entities;
 
 public class Employee {
 	
-	private int id;
+	private int code;
 	private String name;
 	private double salary;
 	
-	public Employee( ) {
-		
-	}
-
-	public Employee(int id, String name, double salary) {	
-		this.id = id;
+	public Employee(int code, String name, double salary) {
+		this.code = code;
 		this.name = name;
 		this.salary = salary;
 	}
 
-	public int getId() {
-		return id;
+	public int getCode() {
+		return code;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setCode(int code) {
+		this.code = code;
 	}
 
 	public String getName() {
@@ -44,8 +40,9 @@ public class Employee {
 		salary += salary * (percentage / 100.00);
 	}
 
+	
 	public String toString() {
-		return id + ", " + name + ", " + String.format("%.2f", salary);
+		return  code + ", " + name + ", " + String.format("%.2f", salary);
 	}
-	 
+	
 }
