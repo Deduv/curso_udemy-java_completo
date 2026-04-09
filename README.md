@@ -15,7 +15,7 @@ Dominar o desenvolvimento de aplicações modernas em Java como graduando em Eng
     - Seção 5: Estrutura condicional - 11 aulas - 54m
     - Seção 6: Estruturas repetitivas - 14 aulas - 1h 10m
     - Seção 7: Outros tópicos básicos sobre Java - 6 aulas - 49m
-- [ ] **Módulo 2: Programação Orientada a Objetos**
+- [x] **Módulo 2: Programação Orientada a Objetos**
     - Seção 8: Introdução à POO - 12 aulas - 1h 29m
     - Seção 9: Construtores, palavra this, sobrecarga, encapsulamento - 11 aulas - 1h 16m
     - Seção 10: Comportamento de memória, arrays, listas - 20 aulas - 2h 40m
