@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 
 import model.entities.Product;
-import util.Predicate;
+
 
 public class Program {
 
@@ -19,7 +19,7 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("Hd Case", 80.90));
 		
-		list.removeIf(new Predicate()); 
+		list.removeIf(Product::staticProductPredicate); 
 		
 		for(Product p : list) {
 			System.out.println(p);
