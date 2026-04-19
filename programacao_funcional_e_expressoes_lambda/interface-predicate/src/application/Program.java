@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.function.Predicate;
 
 import model.entities.Product;
 
@@ -25,13 +24,10 @@ public class Program {
 		
 		System.out.print("Enter the min value: ");
 		double minValue = sc.nextDouble();
-		Predicate <Product> pred = p -> p.getPrice() >= minValue;
 		
-		list.removeIf(pred); 
+		list.removeIf(p -> p.getPrice() >= minValue); 
 		
-		for(Product p : list) {
-			System.out.println(p);
-		}
+		list.forEach(p -> System.out.println(p));
 		
 		sc.close();
 	}
