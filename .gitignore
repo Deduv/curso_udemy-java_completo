@@ -17,3 +17,9 @@ target/
 # Arquivos temporários do Linux
 *.swp
 *~
+
+# Ignorar configurações do IntelliJ IDEA
+.idea/
+*.iml
+out/
+gen/
