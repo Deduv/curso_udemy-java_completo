@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.function.Consumer;
 
 import model.entities.Product;
 
@@ -26,9 +25,7 @@ public class Program {
 		double increase = sc.nextDouble();
 		double factor = 1 + (increase / 100.0);
 		
-		Consumer <Product> consumer = p -> p.setPrice(p.getPrice() * factor);
-		
-		list.forEach(consumer);
+		list.forEach(p -> p.setPrice(p.getPrice() * factor));
 		
 		list.forEach(System.out::println);
 		
