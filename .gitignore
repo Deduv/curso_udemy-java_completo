@@ -23,3 +23,6 @@ target/
 *.iml
 out/
 gen/
+
+# Ignorar arquivos de configuração com credenciais
+db.properties
