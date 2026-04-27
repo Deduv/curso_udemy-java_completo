@@ -119,6 +119,16 @@ Com os três primeiros módulos concluídos, sou capaz de:
 
 ---
 
+## Projetos Práticos
+
+Projetos desenvolvidos durante o curso, com código separado por repositório:
+
+| Projeto | Descrição |
+|---|---|
+| [demo-dao-jdbc](https://github.com/Deduv/demo-dao-jdbc) | Padrão DAO com JDBC, tratamento de exceções customizado, design baseado em interfaces e Factory pattern |
+
+---
+
 ## Próximos passos
 
 Ao concluir o Módulo 4, terei desenvolvido projetos completos com:
@@ -128,3 +138,5 @@ Ao concluir o Módulo 4, terei desenvolvido projetos completos com:
 - Um jogo de xadrez funcional em console (projeto mais desafiador do curso)
 
 ---
+
+*Desenvolvido por [Deduv](https://github.com/Deduv) · Graduando em Engenharia de Software*
