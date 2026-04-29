@@ -14,7 +14,6 @@
             <property name="jakarta.persistence.jdbc.password" value=""/>
 
             <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
         </properties>
     </persistence-unit>
 
