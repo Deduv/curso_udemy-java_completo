@@ -82,8 +82,8 @@ Cada pasta corresponde a uma seção do curso, com os exercícios e projetos des
 
 ### Módulo 4 – Projetos e Bônus
 
-- [ ] Seção 20: Acesso a banco de dados com JDBC — 26 aulas (3h52min)
-- [ ] Seção 21: Mapeamento objeto-relacional com JPA / Hibernate — 6 aulas (54min)
+- [x] Seção 20: Acesso a banco de dados com JDBC — 26 aulas (3h52min)
+- [x] Seção 21: Mapeamento objeto-relacional com JPA / Hibernate — 6 aulas (54min)
 - [ ] Seção 22: Web services com Spring Boot e JPA — 34 aulas (5h11min)
 - [ ] Seção 23: Projeto jogo de xadrez — 33 aulas (5h45min)
 - [ ] Seção 24: Spring Boot + MongoDB (NoSQL) — 27 aulas (3h25min)
@@ -126,6 +126,7 @@ Projetos desenvolvidos durante o curso, com código separado por repositório:
 | Projeto | Descrição |
 |---|---|
 | [demo-dao-jdbc](https://github.com/Deduv/demo-dao-jdbc) | Padrão DAO com JDBC, tratamento de exceções customizado, design baseado em interfaces e Factory pattern |
+| [workshop-springboot4-jpa](https://github.com/Deduv/workshop-springboot4-jpa) | REST API com Spring Boot 4 e JPA/Hibernate, CRUD completo, arquitetura em camadas e tratamento de exceções |
 
 ---
 
