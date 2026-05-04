@@ -25,7 +25,7 @@ Dominar o desenvolvimento de aplicações Java modernas como graduando em Engenh
 Módulo 1 – Fundamentos              ████████████████████  Concluído
 Módulo 2 – Orientação a Objetos     ████████████████████  Concluído
 Módulo 3 – Tópicos Avançados        ████████████████████  Concluído
-Módulo 4 – Projetos e Bônus         ░░░░░░░░░░░░░░░░░░░░  Em breve
+Módulo 4 – Projetos e Bônus         ██████░░░░░░░░░░░░░░  Em andamento
 ```
 
 ---
@@ -92,17 +92,25 @@ Cada pasta corresponde a uma seção do curso, com os exercícios e projetos des
 
 ## O que já sei fazer em Java
 
-Com os três primeiros módulos concluídos, sou capaz de:
+Em constante evolução — abaixo o que já aplico na prática:
 
-- Modelar sistemas orientados a objetos com herança, composição e polimorfismo
+**Orientação a Objetos**
+- Modelar sistemas com herança, composição e polimorfismo
 - Aplicar encapsulamento e boas práticas de design de classes
-- Trabalhar com coleções do tipo `List`, `Set` e `Map` e seus comportamentos de memória
-- Manipular datas com a API `java.time` (LocalDate, LocalDateTime, ZonedDateTime)
+- Trabalhar com coleções `List`, `Set` e `Map` e seus comportamentos de memória
 - Criar tipos genéricos e reutilizáveis com Generics
 - Escrever código funcional com lambdas, Streams e method references
-- Implementar interfaces como `Comparable`, `Predicate` e `Function`
-- Realizar leitura e escrita de arquivos com `BufferedReader` / `BufferedWriter`
-- Tratar exceções de forma estruturada com hierarquias customizadas
+
+**Banco de Dados**
+- Persistir dados com JDBC puro aplicando o padrão DAO e Factory
+- Mapear entidades com JPA/Hibernate (`@Entity`, `@OneToMany`, `@ManyToMany`)
+- Trabalhar com banco em memória H2 para testes e PostgreSQL/MySQL para produção
+
+**APIs e Back-end**
+- Desenvolver APIs REST com Spring Boot e arquitetura em camadas (Resource → Service → Repository)
+- Implementar CRUD completo com `@RestController`, `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`
+- Tratar exceções de forma estruturada com handlers customizados (`@ControllerAdvice`)
+- Configurar múltiplos perfis de ambiente (`test`, `dev`, `prod`)
 
 ---
 
@@ -133,7 +141,6 @@ Projetos desenvolvidos durante o curso, com código separado por repositório:
 ## Próximos passos
 
 Ao concluir o Módulo 4, terei desenvolvido projetos completos com:
-- Persistência de dados via JDBC e JPA/Hibernate
 - APIs REST com Spring Boot
 - Banco de dados NoSQL com MongoDB
 - Um jogo de xadrez funcional em console (projeto mais desafiador do curso)
